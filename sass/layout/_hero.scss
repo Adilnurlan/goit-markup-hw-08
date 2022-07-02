@@ -1,16 +1,16 @@
-// .main-title {
-//     font-weight: 900;
-//     font-size: 44px;
-//     line-height: 1.36;
-//     text-align: center;
-//     letter-spacing: 0.06em;
-//     text-transform: uppercase;
-//     color: #FFFFFF;
-//     margin-bottom: 30px;
-//     width: 696px;
-//     margin-left: auto;
-//     margin-right: auto;
-// }
+.main-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+    width: 696px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 // .hero {
 //     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../images/hero/bg.jpg');
@@ -24,7 +24,7 @@
 
 @media screen and (max-width: 767px) {
     .hero {
-        width: 100%;
+        max-width: 100%;
         padding-top: 118px;
         padding-bottom: 118px;
         text-align: center;
@@ -36,7 +36,7 @@
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
-        background-color: var(--accent-background);
+        background-color: rgba(47, 48, 58, 0.4);
 
         @media (min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
@@ -47,10 +47,20 @@
                 url('../../images/mobile/header/header@2x\ .jpg');
         }
     }
+
+    .main-title {
+        font-size: 26px;
+        line-height: 1.62;
+        width: 360px;
+    }
 }
 
 @media screen and (min-width: 768px) {
     .hero {
+        max-width: 100%;
+        padding-top: 118px;
+        padding-bottom: 118px;
+        text-align: center;
         margin-left: auto;
         margin-right: auto;
         background-image: linear-gradient(rgba(47, 48, 58, 0.4),
@@ -58,7 +68,8 @@
             url('../../images/tablet/header/header@1x.jpg');
         background-size: cover;
         background-repeat: no-repeat;
-        background-color: var(--accent-background);
+        background-position: center;
+        background-color: rgba(47, 48, 58, 0.4);
 
         @media (min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
@@ -68,6 +79,12 @@
                     rgba(47, 48, 58, 0.4)),
                 url('../../images/tablet/header/header@2x.jpg');
         }
+    }
+
+    .main-title {
+        font-size: 26px;
+        line-height: 1.62;
+        width: 360px;
     }
 }
 
@@ -83,7 +100,7 @@
             url('../../images/desktop/header/header@1x.jpg');
         background-size: cover;
         background-repeat: no-repeat;
-        background-color: var(--accent-background);
+        background-color: rgba(47, 48, 58, 0.4);;
 
         @media (min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
@@ -93,5 +110,5 @@
                     rgba(47, 48, 58, 0.4)),
                 url('../../images/desktop/header/header@2x.jpg');
         }
-    }
+    }  
 }
