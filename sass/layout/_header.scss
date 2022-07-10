@@ -5,10 +5,10 @@
 }
 
 @media screen and (max-width: 767px) {
-.header__container {
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
+    .header__container {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
 
     .menu {
         display: none;
@@ -123,13 +123,23 @@
 }
 
 @media screen and (min-width: 1200px) {
+    .header {
+            border-bottom: 1px solid #ECECEC;
+    }
+
     .contacts {
         display: flex;
         align-items: center;
     }
 
+    .contacts__link {
+        font-size: 14px;
+        line-height: 1.14;
+    }
+
     .contacts__mail {
         margin-right: 50px;
+        margin-bottom: 0;
     }
 }
 

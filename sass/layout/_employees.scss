@@ -1,8 +1,59 @@
+.employees-section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    background-color: #F5F4FA;
+}
+
+// .employees-list {
+//     display: flex;
+//     flex-wrap: wrap;
+//     margin-top: -30px;
+//     margin-left: -30px;
+// }
+
+// .employees-list__item {
+//     flex-basis: calc((100% - 120px) / 4);
+//     margin-top: 30px;
+//     margin-left: 30px;
+//     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+//     border-radius: 0px 0px 4px 4px;
+// }
+
+.info-wrapper {
+    background-color: var(--primary-text-color-theme-dark);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.employees-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+// .employees-name {
+//     margin-bottom: 10px;
+// }
+
+.employees-position {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+    margin-bottom: 16px;
+}
+
 @media screen and (max-width: 767px) {
     .employees-section {
         padding-top: 60px;
         padding-bottom: 60px;
-        background-color: #F5F4FA;
     }
 
     .employees-list__item {
@@ -14,33 +65,8 @@
         }
     }
 
-    .info-wrapper {
-        background-color: var(--primary-text-color-theme-dark);
-        padding-top: 30px;
-        padding-bottom: 30px;
-    }
-
-    .employees-name {
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.19;
-        text-align: center;
-        letter-spacing: 0.03em;
-        color: #212121;
-    }
-
     .employees-name {
         margin-bottom: 10px;
-    }
-
-    .employees-position {
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.19;
-        text-align: center;
-        letter-spacing: 0.03em;
-        color: #757575;
-        margin-bottom: 16px;
     }
 }
 
@@ -49,7 +75,6 @@
     .employees-section {
         padding-top: 60px;
         padding-bottom: 60px;
-        background-color: #F5F4FA;
     }
 
     .employees-list {
@@ -68,86 +93,30 @@
         }
     }
 
-    .info-wrapper {
-        background-color: var(--primary-text-color-theme-dark);
-        padding-top: 30px;
-        padding-bottom: 30px;
-        padding-left: 32px;
-        padding-right: 32px;
-    }
-
-    .employees-name {
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.19;
-        text-align: center;
-        letter-spacing: 0.03em;
-        color: #212121;
-    }
-
     .employees-name {
         margin-bottom: 10px;
     }
-
-    .employees-position {
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.19;
-        text-align: center;
-        letter-spacing: 0.03em;
-        color: #757575;
-        margin-bottom: 16px;
-    }
 }
 
-// .employees-section {
-//     padding-top: 94px;
-//     padding-bottom: 94px;
-//     background-color: #F5F4FA;
-// }
+@media screen and (min-width: 1200px) {
+    .employees-section {
+        padding-top: 94px;
+        padding-bottom: 94px;
+    }
 
-// .employees-list {
-//     display: flex;
-//     flex-wrap: wrap;
-//     margin-top: -30px;
-//     margin-left: -30px;
-// }
+    .employees-list {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: -30px;
+        margin-left: -30px;
+    }
 
-// .employees-list__item {
-//     flex-basis: calc((100% - 120px) / 4);
-//     margin-top: 30px;
-//     margin-left: 30px;
-//     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-//     border-radius: 0px 0px 4px 4px;
-// }
+    .employees-list__item {
+        margin-top: 30px;
+        margin-left: 30px;
 
-// .info-wrapper {
-//     background-color: var(--primary-text-color-theme-dark);
-//     padding-top: 30px;
-//     padding-bottom: 30px;
-//     padding-left: 32px;
-//     padding-right: 32px;
-// }
-
-// .employees-name {
-//     font-weight: 500;
-//     font-size: 16px;
-//     line-height: 1.19;
-//     text-align: center;
-//     letter-spacing: 0.03em;
-//     color: #212121;
-// }
-
-// .employees-name {
-//     margin-bottom: 10px;
-// }
-
-// .employees-position {
-//     font-weight: 400;
-//     font-size: 16px;
-//     line-height: 1.19;
-//     text-align: center;
-//     letter-spacing: 0.03em;
-//     color: #757575;
-//     margin-bottom: 16px;
-// }
+        &:not(:nth-last-child(-n + 2)) {
+            margin-bottom: 0;
+        }
+    }
+}

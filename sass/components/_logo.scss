@@ -1,48 +1,34 @@
-// .logo-link {
-//     font-family: var(--secondary-font-family);
-//     font-weight: 700;
-//     font-size: 26px;
-//     line-height: 1.19;
-//     letter-spacing: 0.03em;
-//     color: var(--accent-color);
-//     margin-right: 93px;
-// }
+.logo-link {
+    font-family: var(--secondary-font-family);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+    margin-right: 93px;
+}
 
-// .logo-link__accent {
-//     font-family: var(--secondary-font-family);
-//     font-weight: 700;
-//     font-size: 26px;
-//     line-height: 1.19;
-//     letter-spacing: 0.03em;
-//     color: var(--primary-text-color-theme-light)
-// }
+.logo-link__accent {
+    font-family: var(--secondary-font-family);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color-theme-light)
+}
 
-// .logo-link__accent-dark {
-//     color: var(--primary-text-color-theme-dark);
-// }
+.logo-link__accent-dark {
+    color: var(--primary-text-color-theme-dark);
+}
 
 @media screen and (max-width: 767px) {
     .logo-link {
-        font-family: var(--secondary-font-family);
-        font-weight: 700;
-        font-size: 24px;
-        line-height: 1.17;
-        letter-spacing: 0.03em;
-        color: var(--accent-color);
         margin-right: 93px;
     }
     
     .logo-link__accent {
-        font-family: var(--secondary-font-family);
-        font-weight: 700;
         font-size: 24px;
         line-height: 1.17;
-        letter-spacing: 0.03em;
-        color: var(--primary-text-color-theme-light)
-    }
-
-    .logo-link__accent-dark {
-        color: var(--primary-text-color-theme-dark);
     }
 
     .logo-link__footer {
@@ -52,26 +38,12 @@
 
 @media screen and (min-width: 768px) {
     .logo-link {
-        font-family: var(--secondary-font-family);
-        font-weight: 700;
-        font-size: 24px;
-        line-height: 1.17;
-        letter-spacing: 0.03em;
-        color: var(--accent-color);
         margin-right: 88px;
     }
-    
+
     .logo-link__accent {
-        font-family: var(--secondary-font-family);
-        font-weight: 700;
         font-size: 24px;
         line-height: 1.17;
-        letter-spacing: 0.03em;
-        color: var(--primary-text-color-theme-light)
-    }
-
-    .logo-link__accent-dark {
-        color: var(--primary-text-color-theme-dark);
     }
 
     .logo-link__footer {
